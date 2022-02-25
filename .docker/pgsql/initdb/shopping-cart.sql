@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Users;
+CREATE TABLE Users(
+  username VARCHAR(20) PRIMARY  KEY,
+  passwd VARCHAR(10)
+);
+
+INSERT INTO Users VALUES ('user1','1234');
+INSERT INTO Users VALUES ('user2','6545');
+INSERT INTO Users VALUES ('user3','9516');
